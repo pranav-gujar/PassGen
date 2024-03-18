@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    .caprasimo-regular {
+        font-family: "Caprasimo", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+    box-sizing: border-box;
+}
+
+body{
+    background: #002339;
+    color: white;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    background: #02024b;
+    /* margin: 12%; */
+    width: 90%;
+    margin-left: 40px;
+    max-width: 700px;
+    position: absolute;
+    right: 35px;
+    top: 150px;
+    border-radius: 10px;
+   
+}
+
+.display {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background: #fff;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 26px 20px;
+    border-radius: 10px;
+
+}
+
+.container h1{
+    font-size: 45px;
+}
+
+.container span {
+    color: #019f55;
+    border-bottom: 4px solid rgb(216, 183, 183);
+    padding-bottom: 7px;
+}
+
+.display img {
+    width: 30px;
+    cursor: pointer;
+}
+
+.display img:active{
+    transform: scale(0.85);
+}
+
+.display input {
+    border: 0;
+    outline: 0;
+    font-size: 24px;
+}
+
+.container button img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.container button {
+    border: 0;
+    outline: 0;
+    color: #fff;
+    background: #019f55;
+    font-size: 22px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 26px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.container button:active {
+    transform: scale(0.95);
+}
