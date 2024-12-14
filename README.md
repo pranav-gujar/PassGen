@@ -1,4 +1,4 @@
-# My Random Password Generator
+# Random Password Generator
 
 A simple web-based Random Password Generator app that generates strong, random passwords.
 
