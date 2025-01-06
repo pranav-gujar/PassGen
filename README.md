@@ -1,4 +1,4 @@
-# PassGen : The Random Password Generator
+# PassGen : The Random Password Generator WebApp
 
 A simple web-based Random Password Generator app that generates strong, random passwords.
 
